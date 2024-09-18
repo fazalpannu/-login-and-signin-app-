@@ -143,7 +143,7 @@ struct SignInView: View {
                                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
                             
                             Button("Sign up"){
-                                dismiss()
+                                dismiss()  // For dismiss purpose
                             }
                                     .foregroundColor(.green) // Change text color for better contrast
                                 
@@ -151,7 +151,7 @@ struct SignInView: View {
                                     .padding(.top,5)
                                     .font(.title2)
                                      
-     
+       
                                 
                                 
                             
